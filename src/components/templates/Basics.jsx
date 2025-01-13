@@ -43,6 +43,12 @@ const Basics = () => {
                     <li><strong>Java Bytecode</strong>: mid-level code in between Java and Machine Code. Cn run on several machines</li>
                     <li><strong>Java Virtual Machine (JVM)</strong>: Theoretical computer (virtual) whose machine language is the set of Java Bytecodes</li>
                     <li><strong>Java Runtime Environment (JRE)</strong>: Program that executes Java bytecodes</li>
+                    <li><strong>Class</strong>: Unit of code that is the basic building block of a Java program</li>
+                    <li><strong>Method</strong>: Unit of a program (small section of logic) that performs a specific action</li>
+                    <li><strong>Statement</strong>: An executable bit of code that represents a command</li>
+                    <li><strong>String literal</strong>: Sequence of characters surrounded by double quotes</li>
+                    <li><strong>Identifier</strong>: Name used to represent an entity in a program</li>
+                    <li><strong>Comment</strong>: Text to inform developers what the code does (ignored by compilers and only used for read-only purposes)</li>
                 </ul>
             </section>
             <section>
@@ -63,6 +69,19 @@ const Basics = () => {
                     <li>Submit the source file to the compiler (Java bytecode)</li>
                     <li>Execute the Java class file (done by JRE)</li>
                 </ol>
+
+                <strong>How do I display output to the console?</strong>
+                <ul>
+                    <li><strong>System.out.print()</strong>: Print string literal context to the console on the same line</li>
+                    <li><strong>System.out.println()</strong>: Print string literal contex on the console and end the line thus creating a new line</li>
+                </ul>
+
+                <strong>What is the preferred naming convention in Java?</strong>
+                <ul>
+                    <li><strong>Class names</strong>: Start with a capital letter and each word following afterwards (no space)</li>
+                    <li><strong>Method/variable names</strong>: Start with lower case letter and each word following has upper case</li>
+                    <li><strong>Constant names</strong>: All uppercase letters with underscores separating words</li>
+                </ul>
             </section>
             <section>
                 <h2>Resources</h2>
